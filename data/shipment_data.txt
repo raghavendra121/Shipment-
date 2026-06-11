@@ -1,0 +1,7 @@
+ShipmentID|DestinationCity|Volume(m3)|Weight(kg)|Priority|Timestamp
+SHP001|Mumbai|2.5|300|High|2026-05-30 08:15:00
+SHP002|Delhi|0.3|40|Low|2026-05-30 08:16:30
+SHP003|Bangalore|15.0|2200|Medium|2026-05-30 08:17:45
+INVALID_RECORD_MISSING_FIELDS
+SHP004|UnknownCity|1.0|100|High|2026-05-30 08:18:00
+SHP005|Chennai|-5.0|200|High|2026-05-30 08:19:00

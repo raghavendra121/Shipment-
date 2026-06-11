@@ -27,7 +27,7 @@ if upload is not None:
                 "Vehicle_id": v.vehicle_id,
                 "Vehicle_type": v.vehicle_type,
                 "Destination": v.distination,
-                "Utilization": f"{v.utilization():.2f}",
+                "Utilization": round(v.utilization(), 2),
                 "Shipment count": len(v.shipments)
             })
             st.dataframe(dispatch_rows, use_container_width=True)

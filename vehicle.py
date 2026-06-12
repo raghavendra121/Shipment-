@@ -74,7 +74,7 @@ class Loadplanner:
         try:
             weight = self._parse_float(raw_weight)
         except:
-            return None, "Invalid weight value"
+            return None, "Information is not vaild"
         if volume <= 0:
             return None, "Invalid volume value"
         if weight <= 0:

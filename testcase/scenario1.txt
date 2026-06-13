@@ -1,0 +1,12 @@
+scenario >>  End user should validate the shipment details
+
+
+test case ::  End user should able to add the shipment
+
+execution Steps ::
+1 >>> Execute the code by using terminal > python3 ./exe.py
+2 >>> It automaticaly drive to defalt browser with localhost:port-number
+3 >>> Updload the shipment log file or txt file
+4 >>> automaticaly it will anlyse with the bar_diagram the following vaild, invaild , dispache reults
+
+

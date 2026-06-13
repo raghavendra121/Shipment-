@@ -69,9 +69,12 @@ class Loadplanner:
             return None, "Invaild_city"
         try:
             volume = self._parse_float(raw_volume)
+        except:
+            return None, "Information is not vaild"
+        try:
             weight = self._parse_float(raw_weight)
         except:
-            return None, "information is not vaild"
+            return None, "Information is not vaild"
         if volume <= 0:
             return None, "Invalid volume value"
         if weight <= 0:
